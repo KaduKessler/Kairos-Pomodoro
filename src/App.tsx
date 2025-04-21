@@ -3,11 +3,18 @@ import "@styles/global.css";
 
 import { Container } from "@components/Container";
 import { Heading } from "@components/Heading";
+import { Logo } from "@components/Logo";
 
 export function App() {
   return (
     <>
-      <Heading>Kairos</Heading>
+      <Container>
+        <Logo />
+      </Container>
+
+      <Container>
+        <Heading>Kairos</Heading>
+      </Container>
 
       <Container>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
