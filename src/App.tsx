@@ -4,6 +4,7 @@ import "@styles/global.css";
 import { Container } from "@components/Container";
 import { Menu } from "@components/Menu";
 import { Logo } from "@components/Logo";
+import { CountDown } from "@components/CountDown";
 
 export function App() {
   return (
@@ -17,17 +18,7 @@ export function App() {
       </Container>
 
       <Container>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-        tempore omnis aperiam eveniet totam architecto molestias incidunt
-        dolorem voluptatibus aspernatur et reiciendis nobis voluptates alias
-        maxime temporibus rerum impedit voluptate.
-      </Container>
-
-      <Container>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-        tempore omnis aperiam eveniet totam architecto molestias incidunt
-        dolorem voluptatibus aspernatur et reiciendis nobis voluptates alias
-        maxime temporibus rerum impedit voluptate.
+        <CountDown />
       </Container>
     </>
   );
